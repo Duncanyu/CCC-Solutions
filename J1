@@ -1,0 +1,9 @@
+#Credit Duncan Yu @ 2023-05-05 7:37PM
+from sys import stdin, stdout
+
+Y = int(stdin.readline())
+M = int(stdin.readline())
+
+Diff = M - Y
+
+stdout.write(str(M + Diff))
